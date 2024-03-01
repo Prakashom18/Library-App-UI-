@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:gravity="center"
+  android:orientation="vertical"
+    tools:ignore="MissingConstraints,UselessParent"
+    android:background="@drawable/library_background">
+
+  <ImageView android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:src="@drawable/book"
+      android:importantForAccessibility="no">
+  </ImageView>
+  <EditText
+
+      android:layout_width="200dp"
+      android:layout_height="65dp"
+      android:layout_marginTop="10dp"
+      android:hint="BSC. CSIT"
+      android:textColor="@color/white"
+    android:textColorHint="#FFA500"
+    android:textSize="35sp"
+      android:background="@drawable/rectangle_shape"
+      android:padding="10dp"
+      android:textAlignment="center"
+      tools:ignore="HardcodedText,TextFields"
+      android:importantForAutofill="no" />
+  <Button
+      android:layout_width="350dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="12dp"
+      android:text="1st Semester"
+      android:textColor="#808080"
+      android:textSize="30sp"
+      android:background=""
+      android:padding="5dp"
+      android:textAlignment="center"
+      tools:ignore="HardcodedText"
+      android:importantForAutofill="no" />
+  <Button
+      android:layout_width="350dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="12dp"
+      android:text="2nd Semester"
+      android:textColor="#808080"
+      android:textSize="30sp"
+      android:background=""
+      android:padding="5dp"
+      android:textAlignment="center"
+      tools:ignore="HardcodedText"
+      android:importantForAutofill="no" />
+  <Button
+      android:layout_width="350dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="12dp"
+      android:text="3rd Semester"
+      android:textColor="#808080"
+
+      android:textSize="30sp"
+      android:background=""
+      android:padding="5dp"
+      android:textAlignment="center"
+      tools:ignore="HardcodedText"
+      android:importantForAutofill="no" />
+  <Button
+      android:layout_width="350dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="12dp"
+      android:text="4th Semester"
+      android:textColor="#808080"
+      android:textSize="30sp"
+      android:background=""
+      android:padding="5dp"
+      android:textAlignment="center"
+      tools:ignore="Autofill,HardcodedText" />
+  <Button
+      android:layout_width="350dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="12dp"
+      android:text="5th Semester"
+      android:textColor="#808080"
+      android:textSize="30sp"
+      android:background=""
+      android:padding="5dp"
+      android:textAlignment="center"
+      android:autofillHints=""
+      tools:ignore="HardcodedText" />
+  <Button
+      android:layout_width="350dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="12dp"
+      android:text="6th Semester"
+      android:textColor="#808080"
+      android:textColorHint="#17C255"
+      android:textSize="30sp"
+      android:background=""
+      android:padding="5dp"
+      android:textAlignment="center"
+      tools:ignore="HardcodedText"
+      android:importantForAutofill="no" />
+  <Button
+      android:layout_width="350dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="12dp"
+      android:text="7th Semester"
+      android:textColor="#808080"
+      android:textColorHint="#013220"
+      android:textSize="30sp"
+      android:background=""
+      android:padding="5dp"
+      android:textAlignment="center"
+      tools:ignore="HardcodedText"
+      android:importantForAutofill="no" />
+  <Button
+      android:layout_width="350dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="12dp"
+      android:text="8th Semester"
+      android:textColor="#808080"
+      android:textSize="30sp"
+      android:background=""
+      android:padding="5dp"
+      android:textAlignment="center"
+      tools:ignore="HardcodedText"
+      android:importantForAutofill="no" />
+</LinearLayout>
+  <LinearLayout
+      android:layout_width="409dp"
+      android:layout_height="62dp"
+      android:orientation="horizontal"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      style="?android:attr/buttonBarStyle"
+      android:background="#f47b16">
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawableBottom="@drawable/homelogo"
+        style="?android:attr/buttonBarButtonStyle"
+        android:importantForAccessibility="no">
+    </Button>
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawableBottom="@drawable/downloadlogo"
+        style="?android:attr/buttonBarButtonStyle"
+        android:importantForAccessibility="no">
+    </Button>
+
+    <Button
+        android:id="@+id/notification"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawableBottom="@drawable/notificationlogo"
+        android:importantForAccessibility="no"
+        />
+    <Button
+        android:id="@+id/darkmode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawableBottom="@drawable/darkmode"
+        style="?android:attr/buttonBarButtonStyle"
+        android:importantForAccessibility="no" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawableBottom="@drawable/others"
+        style="?android:attr/buttonBarButtonStyle"
+        android:importantForAccessibility="no" />
+
+
+  </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
